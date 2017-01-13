@@ -29,6 +29,7 @@ body {
 
 p {
   vertical-align: middle;
+  text-align: left;
   padding: 1em 0;
 }
 
@@ -49,7 +50,7 @@ a {
   background-color: #555;
   border-radius: 4px;
   color: #fff;
-  padding: 0.5em 0.75em;
+  padding: .5em .75em;
   text-decoration: none;
 }
 
@@ -73,15 +74,27 @@ a:hover {
     line-height: 1.4;
   }
 
+  h1 {
+    padding-top: .5em;
+  }
+
+  p {
+    padding-top: 0;
+  }
+
   .body {
     display: inline-block;
+    vertical-align: middle;
     width: 48%;
   }
 
   .img {
     display: inline-block;
+    vertical-align: middle;
+    text-align: center;
     width: 50%;
   }
+
   .img-flex {
     width: 100%;
   }

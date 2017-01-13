@@ -109,13 +109,20 @@ a:hover {
     line-height: 1.5;
   }
 
+  section {
+    padding: 2em 0;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
-    line-height: 1.5;
+  }
+
+  section {
+    margin-left: 12em;
   }
 
 }

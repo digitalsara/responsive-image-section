@@ -15,6 +15,22 @@ body {
   margin: 0;
 }
 
+section {
+  padding: 1em;
+}
+
 .img-flex {
   width: 100%;
+}
+
+a {
+  background-color: #555;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 0.75em;
+  border-radius: 4px;
+}
+
+a:hover {
+  background-color: #000;
 }

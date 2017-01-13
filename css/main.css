@@ -29,11 +29,15 @@ body {
   padding: 1em;
 }
 
+p {
+  vertical-align: middle;
+}
+
 section {
   max-width: 965px;
 }
 
-.img-flex {
+.img {
   display: block;
   width: 100%;
 }
@@ -68,16 +72,15 @@ a:hover {
 
   .body {
     display: inline-block;
-    width: 50%;
+    width: 48%;
   }
 
   .img {
-    position: absolute;
     display: inline-block;
+    width: 50%;
+  }
+  .img-flex {
+    width: 100%;
   }
 
-  .img-flex {
-    display: inline-block;
-    text-align: center;
-  }
 }

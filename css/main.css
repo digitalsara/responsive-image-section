@@ -1,4 +1,14 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   box-sizing: border-box;
 }
 
@@ -15,11 +25,16 @@ body {
   margin: 0;
 }
 
-section {
+.body {
   padding: 1em;
 }
 
+section {
+  max-width: 965px;
+}
+
 .img-flex {
+  display: block;
   width: 100%;
 }
 
@@ -51,11 +66,18 @@ a:hover {
     line-height: 1.4;
   }
 
-  section {
+  .body {
+    display: inline-block;
     width: 50%;
   }
 
+  .img {
+    position: absolute;
+    display: inline-block;
+  }
+
   .img-flex {
-    width: 50%;
+    display: inline-block;
+    text-align: center;
   }
 }
